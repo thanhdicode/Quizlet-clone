@@ -1,0 +1,18 @@
+{
+  "name": "@quenti/auth",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@quenti/emails": "workspace:*",
+    "@quenti/env": "workspace:*",
+    "@quenti/lib": "workspace:*",
+    "@quenti/prisma": "workspace:*",
+    "email-providers": "^2.0.1",
+    "next": "^14.0.4",
+    "next-auth": "^4.24.5"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix"
+  }
+}

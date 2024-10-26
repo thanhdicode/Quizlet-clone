@@ -1,0 +1,15 @@
+{
+  "name": "@quenti/types",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@quenti/prisma": "workspace:*",
+    "next": "^14.0.4",
+    "next-auth": "^4.24.5",
+    "next-axiom": "^0.18.0"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix"
+  }
+}
